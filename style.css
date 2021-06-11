@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* HEADER */
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 200px;
+    background:transparent;
+}
+
+.logo .log{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-item .nav-links{
+    font-size: 17px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.nav-item .nav-links:hover{
+    text-decoration: none;
+    background: white;
+    color:black;
+    border-radius: 5px;
+}
+
+/* HERO SECTION */
+.hero{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 600px;
+    background: url(./Images/pexels-tima-miroshnichenko-6195288.jpg);
+    background-color: rgba(255, 255, 255, 0.24);
+    background-size: 1500px 600px;
+    background-repeat: no-repeat;
+    padding: 50px 200px;
+    gap: 80px;    
+}
+.info-head{
+    color: white;
+    font-size: 50px; 
+}
+.info-text{
+    color: white;
+    font-weight: 500;
+    
+}
+
+.info{
+    width: 40%;
+    background: transparent;
+    margin: 50px;
+   
+}
+
+/* FORM */
+.form{
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 20px 20px;
+    /* margin:20px 20px; */
+}
+
+.form-head{
+    color: white;
+    text-align: center;
+    
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form-text{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 2px;
+}
+
+.input{
+    padding:15px;
+    width: 30rem;
+    font-weight: 300;
+    border: 2px;
+    border-radius: 5px ;
+    border-color: rgb(236, 236, 236);
+   
+}
+
+::placeholder {
+    color:rgba(0, 0, 0, 0.527);
+}
+
+.Login{
+    padding: 15px;
+    width: 30rem;
+    background: rgba(153, 255, 0, 0.822);
+    border: 6px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.btn :hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+/* SERVICES */
+.container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background:white;
+    margin: 20px;
+   
+    
+}
+.box{
+    height: 200px;
+    width: 400px;
+    border: none;
+    background: white;
+    /* display: flex; */
+    padding: 10px 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+    
+}
+/* .box1{
+    background: blue;
+    
+}
+.box2{
+    background:  green;
+}
+.box3{
+    background: red;
+} */
+
+.icon{
+    font-size: 55px;
+    color: rgb(3, 163, 163);
+    background: whitesmoke;
+    border: solid 1px whitesmoke;
+    border-radius: 50%;
+    text-align:center;
+    width:100px;
+    margin: auto;
+    padding: 15px;
+}
+
+.note .f{
+    display: block;
+    /* padding: 0px 15px; */
+    font-size: 20px;
+    text-align: center;
+    /* text-align: justify; */ 
+    /* background: red; */
+    margin:10px;
+    width: 100%;
+    
+}
+
+.more{
+    /* padding: 40px; */
+    display: flex;
+    color: rgba(34, 32, 32, 0.795);
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  
+}
+
+
+.container1{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding: 10px;
+    background: whitesmoke;
+}
+
+.Client-header{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    align-content: center;
+    font-size: 25px;
+    background:whitesmoke;
+    margin-top: 20px;
+}
+
+.clients{
+    background:whitesmoke;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.client1{
+    height: 400px;
+    width: 400px;
+    background:whitesmoke;
+    padding: 20px;
+}
+
+.img1{
+    width:150px;
+    margin:auto;
+}
+.woman{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.name{
+    text-align: center;
+    margin: 10px;
+}
+
+hr{
+    margin: 20px;
+    color: rgb(226, 226, 226)
+}
+.client-note{
+    text-align: center;
+    margin:20px;
+    font-size: 15px;
+}
+.checked{
+color: orange;
+justify-content: center;
+}
+.star{
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    margin: auto;   
+}
+.footer{
+    background: rgba(0, 0, 0, 0.555);
+    height:40px;
+}
+.copy{
+    padding-top: 15px;
+    padding-left: 200px;
+    color: white;
+}
